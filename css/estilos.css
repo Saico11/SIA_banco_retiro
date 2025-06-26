@@ -1,0 +1,29 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.formulario {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    width: 350px;
+}
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+a {
+    display: block;
+    margin: 10px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
